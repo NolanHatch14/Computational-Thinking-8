@@ -15,7 +15,9 @@ if answer1 == 3:
    questions_answered += 1
 ready = input("Okay ready to find out which dog bread is best for you?")
 print(f"{ready}")
-if ready == "yes":
+if ready == "yes" and questions_answered > 0:
+    print("Ok here we go")
+    questions_answered += 1
     print("Ok here we go")
     questions_answered += 1
 print("Dog Breed Finder\n")
@@ -56,4 +58,4 @@ elif points <= 9:
    print("- Beagle")
    print("- Husky")
 print(f"You answered {questions_answered} questions")
-print(f"you got{bonus_points}bonus points")
+print(f"you got{bonus_points} bonus points")
