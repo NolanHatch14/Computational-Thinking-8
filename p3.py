@@ -49,3 +49,4 @@ elif x2 >= x1 and x2 >= x3 and x2 >= x4:
 
 
 turtle.exitonclick()
+#sprite2 is the fastest the turtle
