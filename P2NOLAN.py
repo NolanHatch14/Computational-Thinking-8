@@ -51,7 +51,7 @@ if points <= 3:
    print("- Pug")
    print("- Shih Tzu")
 elif points <= 6:
-   print("- Labrodor")
+   print("- Bulldog")
    print("- Basset Hound")
    print("- French Bulldog")
 elif points <= 9:
@@ -59,3 +59,4 @@ elif points <= 9:
    print("- Husky")
 print(f"You answered {questions_answered} questions")
 print(f"you got{bonus_points} bonus points")
+print("A small, chill dog fits you" if points <= 3 or walks == 0 else "A more active dog fits you")
